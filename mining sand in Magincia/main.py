@@ -56,19 +56,4 @@ if __name__ == '__main__':
     main(_x, _y)
     msg("End!")
     Disconnect()
-
-    """
-    MoveIn("locNewbies")
-    GoToBank()
-    t = 0
-    while t == 0:
-        while IsTrade():
-            if not TradeCheck(0, 1):
-                ConfirmTrade(0)
-                while IsTrade():
-                    Wait(50)
-                newMoveXY(4230, 2837, True, 0, True)
-                t += 1
-                break
-        Wait(50)
-    """
+    
